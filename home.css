@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+font-family: Arial;
+background-image: linear-gradient(to right, black,#B13BFF);
+}
+:root{
+    --clr--: #B13BFF;
+
+}
+.logo{
+    margin-left: 20px;
+    margin-right: 500px;
+}
+nav{
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+font-size: 17px;
+    display: flex;
+    align-items: center;
+height: 70px;
+background-color: rgb(66, 65, 65,0.50);
+border: 2px solid var(--clr--);
+border-radius: 30px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+
+    margin-right: 120px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    cursor: pointer;
+   border-bottom: 2px solid var(--clr--);
+}
+.one{
+    margin-top: 120px;
+    margin-left: 90px;
+    display: flex;
+}
+.one h1{
+    font-size: 40px;
+}
+.one p{
+    margin-top: 40px;
+    letter-spacing: 1.3px;
+}
+.one span{
+    color: #B13BFF;
+}
+.btn{
+    margin-top: 40px;
+    display: flex;
+}
+.btn input{
+padding: 20px 90px;
+ margin-right: 10px;
+    border-radius: 30px;
+font-size: 14px;
+font-weight: 700;
+}
+.rightbtn{
+ 
+    
+}
+.leftbtn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.icons-bottom{
+margin-top: 20px;
+
+}
+
+.icons-bottom i{
+    margin-right: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: white;
+    color: var(--clr--);
+    padding: 10px;
+    box-shadow: 0 0 5px var(--clr--),
+    0 0 7px var(--clr--),
+    0 0 9px var(--clr--) ;
+}
+/* .icons-bottom i:hover{
+       box-shadow: 0 0 5px var(--clr--),
+    0 0 7px var(--clr--),
+    0 0 9px var(--clr--) ; 
+} */
+
+.three img{
+    height: 470px;
+ margin-top: -50px;
+}

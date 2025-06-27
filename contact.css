@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+font-family: Arial;
+background-image: linear-gradient(to right, black,#B13BFF);
+}
+:root{
+    --clr--: #B13BFF;
+
+}
+.icons-contact i{
+      margin-right: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: white;
+    color: var(--clr--);
+    padding: 10px;
+    box-shadow: 0 0 5px var(--clr--),
+    0 0 7px var(--clr--),
+    0 0 9px var(--clr--) ;
+}
+.heading h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.third h5{
+    color: white;
+}
+.third h6{
+    color: white;
+}
+.page{
+    display: flex;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+}
+.first img{
+    height: 600px;
+    margin-left: 100px;
+    
+}
+.second{
+    width: 350px;
+    
+    margin: 130px;
+    margin-top: 150px;
+}
+.second input{
+    margin-bottom: 45px;
+  height: 40px;
+
+}
+.second input::placeholder{
+    text-align: center;
+}
+.third{
+    margin-left: 150px;
+    margin-top: 170px;
+}
+.third p{
+    color: black;
+    margin-bottom: 50px;
+}
+
+.third li{
+color: black;
+}
+.cnt-btn{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
