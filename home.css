@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body{
+    scroll-behavior: smooth;
     color: white;
 font-family: Arial;
 background-image: linear-gradient(to right, black,#B13BFF);
@@ -11,7 +13,10 @@ background-image: linear-gradient(to right, black,#B13BFF);
     --clr--: #B13BFF;
 
 }
+
 .logo{
+    font-size: 20px;
+    color: white;
     margin-left: 20px;
     margin-right: 500px;
 }
@@ -24,7 +29,7 @@ font-size: 17px;
     align-items: center;
 height: 70px;
 background-color: rgb(66, 65, 65,0.50);
-border: 2px solid var(--clr--);
+border: 3px solid var(--clr--);
 border-radius: 30px;
 }
 ul{
@@ -40,16 +45,18 @@ li a{
     text-decoration: none;
 }
 li a:hover{
+    color: white;
     cursor: pointer;
-   border-bottom: 2px solid var(--clr--);
+   border-bottom: 3px solid var(--clr--);
 }
 .one{
     margin-top: 120px;
-    margin-left: 90px;
+    margin-left: 150px;
     display: flex;
 }
 .one h1{
     font-size: 40px;
+    color: #B13BFF;
 }
 .one p{
     margin-top: 40px;
@@ -103,4 +110,187 @@ margin-top: 20px;
 .three img{
     height: 470px;
  margin-top: -50px;
+ margin-left: 60px;
+}
+.three img:hover{
+
+transform: scale(1.1)
+}
+.icons-bottom i:hover{
+transform: scale(1.12)translateY(-5px);
+    color: white;
+    background-color: #B13BFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*service*/
+
+
+.serv h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.serv p{
+    color: white;
+    text-align: center;
+    letter-spacing: 1.3px;
+   
+}
+.back{
+    /* margin-top: 50px;
+    margin-left: 40px; */
+   padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+  color: #B13BFF;
+}
+.card:hover{
+    box-shadow: 0 0 5px grey,
+    0 0 10px grey,
+    0 0 15px grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*about*/
+
+
+.about{
+    display: flex;
+}
+.sec-two h1{
+    color: white;
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+.sec-two p{
+    color: white;
+    width: 700px;
+    letter-spacing: 1.1px;
+}
+.sec-one img{
+    margin-top: 220px;
+    height: 450px;
+    margin-right: 180px;
+}
+.icons-about{
+    margin-top: 30px;
+}
+
+.icons-about i{
+    margin-right: 39px;
+    border-radius: 6px;
+    font-size: 23px;
+    background-color: white;
+    color: var(--clr--);
+    padding: 8px;
+    
+}
+.sec-two h4{
+    color: white;
+}
+
+
+.arrow:hover{
+    color: white;
+    
+text-shadow: 0 0 15px white,
+    0 0 17px white,
+    0 0 19px white;
+
+}
+
+
+
+
+
+
+
+
+
+/*contact*/
+
+.icons-contact i{
+      margin-right: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    color: var(--clr--);
+    padding: 7px;
+    box-shadow: 0 0 5px var(--clr--),
+    0 0 7px var(--clr--),
+    0 0 9px var(--clr--) ;
+}
+.heading h1{
+    color: white;
+    text-align: center;
+
+}
+
+.third h5{
+    color: white;
+}
+.third h6{
+    color: white;
+}
+.page{
+    display: flex;
+}
+.second{
+  
+    display: flex;
+    flex-direction: column;
+}
+.first img{
+    height: 600px;
+    margin-left: 100px;
+    
+}
+.second{
+    width: 350px;
+    
+    margin: 130px;
+    margin-top: 150px;
+}
+.second input{
+    margin-bottom: 45px;
+  height: 40px;
+width: 400px;
+}
+.second input::placeholder{
+    text-align: center;
+}
+.third{
+    margin-left: 150px;
+    margin-top: 170px;
+}
+.third p{
+    color: black;
+    margin-bottom: 50px;
+}
+
+.cnt-btn{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
 }
